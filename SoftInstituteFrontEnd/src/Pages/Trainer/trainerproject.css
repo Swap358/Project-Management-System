@@ -1,0 +1,82 @@
+.assign-form-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background to overlay the entire screen */
+  }
+
+.assign-form{
+    background-color: rgb(250, 253, 250);
+    width: 34%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    
+}
+.assign-form form{
+    padding: 0px 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.assign-form h2{
+    font-size: 22px;
+    text-align: center;
+    border: 1px solid black;
+    height:auto ;
+    
+}
+.assign-form .head{
+    background-color: rgb(131, 1, 253);
+    height: 30px;
+    border-radius:19px 19px 0px 0px ;
+    color:azure;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.assign-form form{
+    border: 1px solid #dee2e6;
+    border-radius: inherit;
+    padding-top: 20px;
+}
+.assign-form form label{
+    display: flex;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 15%;
+}
+.assign-form form input{
+    border: 1px solid rgb(159, 184, 252);
+    border-radius: 5px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+.assign-form form textarea{
+    border: 1px solid rgb(159, 184, 252);
+    border-radius: 5px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.assign-form form select{
+    border: 1px solid rgb(159, 184, 252);
+    border-radius: 5px;
+    width: 70%;
+    margin-bottom: 10px;
+    
+    option{
+        border-radius: 20px;
+       background-color: rgb(235, 237, 241); 
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       
+    }
+}

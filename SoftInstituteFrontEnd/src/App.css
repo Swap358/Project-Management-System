@@ -1,0 +1,25 @@
+.ShowRecords{
+padding: 10px 10px;
+
+background-color:white;
+}
+.ShowRecords h1{
+  text-align: center;
+  font-size: 30px;
+  text-decoration:underline rgb(71, 68, 68) 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(136, 77, 77) ;
+  
+}
+.ShowRecords table tbody tr  button{
+  width: 10rem;
+  
+}
+
+.Assign-button{
+ 
+ padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+}
